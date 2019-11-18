@@ -14,22 +14,22 @@ class ViewModel: NSObject {
     var items = [ViewModelItem]()
     
     let dataArray = [
-    Model(title: "Green"),
-    Model(title: "Blue"),
-    Model(title: "Black"),
-    Model(title: "Grey"),
-    Model(title: "Brown"),
-    Model(title: "Yellow"),
-    Model(title: "White"),
-    Model(title: "Orange"),
-    Model(title: "Purple"),
-    Model(title: "Pink"),
-    Model(title: "Golden"),
-    Model(title: "Coral"),
-    Model(title: "Olive"),
-    Model(title: "Silver"),
-    Model(title: "Khaki"),
-    Model(title: "Emerald")
+        Model(title: "Green"),
+        Model(title: "Blue"),
+        Model(title: "Black"),
+        Model(title: "Grey"),
+        Model(title: "Brown"),
+        Model(title: "Yellow"),
+        Model(title: "White"),
+        Model(title: "Orange"),
+        Model(title: "Purple"),
+        Model(title: "Pink"),
+        Model(title: "Golden"),
+        Model(title: "Coral"),
+        Model(title: "Olive"),
+        Model(title: "Silver"),
+        Model(title: "Khaki"),
+        Model(title: "Emerald")
     ]
     override init() {
         items = dataArray.map { ViewModelItem(item: $0) }

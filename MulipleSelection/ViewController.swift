@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var tableView: UITableView!
     @IBOutlet var deleteButton: UIButton!
     
@@ -23,13 +23,13 @@ class ViewController: UIViewController {
         tableView?.delegate = viewModel
         // Do any additional setup after loading the view.
     }
-
+    
     
     @IBAction func deletePressed(_ sender: Any) {
         tableView.reloadData()
     }
     
-
+    
 }
 
 
