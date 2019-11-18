@@ -29,6 +29,13 @@ class ViewModel: NSObject {
         Model(title: "Olive"),
         Model(title: "Silver"),
         Model(title: "Khaki"),
+        Model(title: "Beige"),
+        Model(title: "Copper"),
+        Model(title: "Lilac"),
+        Model(title: "Violet"),
+        Model(title: "Scarlet"),
+        Model(title: "Moss"),
+        Model(title: "Indigo"),
         Model(title: "Emerald")
     ]
     override init() {
